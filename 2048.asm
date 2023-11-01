@@ -92,22 +92,22 @@ Pila Ends
 Datos Segment
 
 ;Mensajes Acerca de y Ayuda
-AcercaDe db "Acerca De",0Dh,0Ah,0Dh,0Ah,'$'
-AcercaDe1 db "2048 es un juego que se basa en juntar celdas con numeros iguales moviendolos",0Dh,0Ah,'$'
-AcercaDe10 db "de un lado a otro. ",0Dh,0Ah,'$'
-AcercaDe2 db "Cuando el jugador mueve hacia una direccion, todos los numeros se arrastraran",0Dh,0Ah,'$'
-AcercaDe20 db "hacia esa direccion.",0Dh,0Ah,'$'
-AcercaDe3 db "Cuando dos numeros iguales se encuentran, entonces se suman y convergen en una",0Dh,0Ah,'$'
-AcercaDe30 db "misma casilla.",0Dh,0Ah,'$'
-AcercaDe4 db "El objetivo del juego es llegar a la casilla que valga 2048.",0Dh,0Ah,'$'
-AcercaDe5 db "Cada vez que dos numeros converjan, se sumara ese valor al puntaje total.",0Dh,0Ah,'$'
-AcercaDe6 db "En cada nuevo movimiento saldra un 2 o un 4 en un lugar aleatorio de la matriz.",0Dh,0Ah,0Dh,0Ah,'$'
+AcercaDe db "About",0Dh,0Ah,0Dh,0Ah,'$'
+AcercaDe1 db "2048 is a game that is based on matching cells with equal numbers ",0Dh,0Ah,'$'
+AcercaDe10 db "by moving them from side to side. ",0Dh,0Ah,'$'
+AcercaDe2 db "When the player moves in a direction, all numbers will be dragged ",0Dh,0Ah,'$'
+AcercaDe20 db "in that direction.",0Dh,0Ah,'$'
+AcercaDe3 db "When two equal numbers are found, then they are added and merged in ",0Dh,0Ah,'$'
+AcercaDe30 db "one cell.",0Dh,0Ah,'$'
+AcercaDe4 db "The objective of the game is to reach the square that has a value of 2048.",0Dh,0Ah,'$'
+AcercaDe5 db "Every time two numbers are added, that value will be added to the total score.",0Dh,0Ah,'$'
+AcercaDe6 db "On each new move a 2 or a 4 will appear in a random place in the matrix.",0Dh,0Ah,0Dh,0Ah,'$'
 
-Ayuda db "Como Jugar:",0Dh,0Ah,0Dh,0Ah,'$'
-Ayuda1 db "1. Use las flechas direccionales para moverse de un lado a otro en el tablero.",0Dh,0Ah,'$'
-Ayuda2 db "2. Si ya habia empezado un juego, presion S para reanudarlo.",0Dh,0Ah,'$'
-Ayuda3 db "3. Para reiniciar el juego presione R.",0Dh,0Ah,'$'
-Ayuda4 db "4. Para salir del programa presion Esc. $"
+Ayuda db "How to play:",0Dh,0Ah,0Dh,0Ah,'$'
+Ayuda1 db "1. Use the directional arrows to move from one side to the other on the board.",0Dh,0Ah,'$'
+Ayuda2 db "2. If you had already started a game, press S to resume it.",0Dh,0Ah,'$'
+Ayuda3 db "3. To restart the game press R.",0Dh,0Ah,'$'
+Ayuda4 db "4. To exit the program press Esc.$"
 
 
 celdasDisp db 16 dup(0) ; Celdas disponibles (usado por una funcion para llenarlo de las direcciones de las celdas vacias)
@@ -127,14 +127,14 @@ siguiente dw 0 ; Indica cual es la direccion de la siguiente celda 'no vacia'
 ultimo dw 0 ; Indica la direccion de la siguiente celda vacia
 movido db 0 ; Indica si hubo un movimiento o no al presionar una flecha direccional
 puntaje dw 0 ; Cuenta el puntaje actual del juego
-puntajeString db "Puntaje: "
+puntajeString db "Score: "
 gano db 0 ; Indica si usuario vencio el juego, 1 si lo vencio, 0 si no
 gameOver db 0
 seguir db 1
 msjGameOver db "Game Over!"
 msjGano db "Felicidades ha Ganado!!"
 msjJugarDeNuevo db "Pulse R para jugar de nuevo"
-msjAyuda db "Presione F1 para ayuda.$"
+msjAyuda db "Press F1 for help.$"
 
 ; Ambas trasversales indican el patron de movimiento, sirven para recorrer la matriz y cambian dependiendo de la direccion de movimiento
 trasversalUno db 4 dup(?)
