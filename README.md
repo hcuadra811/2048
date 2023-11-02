@@ -9,18 +9,25 @@ In order to play the game you need to download <a href="https://www.dosbox.com/d
 Now you may clone the repo or simply download the 2048.asm file, and place that file in the same folder as the TASM executables - putting the source code file in the same directory is not necessary but it will make this installation more straightforward. 
 
 Once that is done, you may open DOSBOX and mount your drive. For example, if you're using Windows and your TASM folder is in C:/TASM, then you would run the following commands:
+
 ```mount d C:/TASM```
+
 Then navigate to the newly mounted D drive:
+
 ```d:```
 
 Now you need to assemble the code:
+
 ```TASM 2048.asm```
 
 Then link it:
+
 ```TLINK 2048.obj```
 
 And finally you may play by just running:
+
 ```2048```
+
 It should look like this:
 
 ![Screenshot of 2048 game in console.](https://raw.githubusercontent.com/hcuadra811/2048/master/screenshot.jpg)
