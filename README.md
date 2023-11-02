@@ -1,10 +1,10 @@
 ## 2048 in Assembly Language
 
-This is the famous game <a href="https://play2048.co/" target="_blank">2048</a> implemented in Turbo Assembler (TASM). Code is written in Spanish - my bad about that - since I did it as a university project in Costa Rica; I mean, why else would anyone implement 2048 in assembly language lol
+This is the famous game <a href="https://play2048.co/">2048</a> implemented in Turbo Assembler (TASM). Code is written in Spanish - my bad about that - since I did it as a university project in Costa Rica; I mean, why else would anyone implement 2048 in assembly language lol
 
 ## Assemble and Link in order to play
 
-In order to play the game you need to download <a href="https://www.dosbox.com/download.php?main=1" target="_blank">DOSBOX</a> and <a href="https://drive.google.com/file/d/1lsr8WZgvhrT73laZYukScWrJHrhhkJNp/view?usp=sharing">Turbo Assembly (TASM)</a>. For TASM just download the ZIP and extract it wherever you prefer. 
+In order to play the game you need to download <a href="https://www.dosbox.com/download.php?main=1">DOSBOX</a> and <a href="https://drive.google.com/file/d/1lsr8WZgvhrT73laZYukScWrJHrhhkJNp/view?usp=sharing">Turbo Assembly (TASM)</a>. For TASM just download the ZIP and extract it wherever you prefer. 
 
 *FYI, you can also find TASM and TLINK online in case you don't download from here :)*
 
