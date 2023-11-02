@@ -13,6 +13,7 @@ Then you navigate to the mounted drive:
 ```d:```
 
 And then run the game:
+
 ```2048```
 
 It should look like this:
