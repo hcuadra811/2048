@@ -4,7 +4,9 @@ This is the famous game <a href="https://play2048.co/" target="_blank">2048</a> 
 
 ## Installation
 
-In order to play the game you need to download <a href="https://www.dosbox.com/download.php?main=1" target="_blank">DOSBOX</a> and <a href="https://drive.google.com/file/d/1lsr8WZgvhrT73laZYukScWrJHrhhkJNp/view?usp=sharing">Turbo Assembly (TASM)</a>. For TASM just download the ZIP and extract it wherever you prefer. FYI, you can also find TASM and TLINK online in case you don't download from here :)
+In order to play the game you need to download <a href="https://www.dosbox.com/download.php?main=1" target="_blank">DOSBOX</a> and <a href="https://drive.google.com/file/d/1lsr8WZgvhrT73laZYukScWrJHrhhkJNp/view?usp=sharing">Turbo Assembly (TASM)</a>. For TASM just download the ZIP and extract it wherever you prefer. 
+
+*FYI, you can also find TASM and TLINK online in case you don't download from here :)*
 
 Now you may clone the repo or simply download the 2048.asm file, and place that file in the same folder as the TASM executables - putting the source code file in the same directory is not necessary but it will make this installation more straightforward. 
 
